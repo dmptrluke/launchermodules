@@ -10,7 +10,7 @@
 		<Module name="Xaero's Minimap" id="xaerosminimap" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/Xaeros_Minimap_20.11.0_Forge_1.15.2.jar</URL>
 			<Size>523279</Size>
-			<Required>true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>8eeb4c80fd4046f04a090145fdf00069</MD5>
 			<ConfigFile>
@@ -31,7 +31,7 @@
 		<Module name="Xaero's World Map" id="xaerosworldmap" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/XaerosWorldMap_1.5.7_Forge_1.15.2.jar</URL>
 			<Size>254142</Size>
-			<Required>true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>de7e2218ec3f674927a1d05f61102dc9</MD5>
 			<Meta>

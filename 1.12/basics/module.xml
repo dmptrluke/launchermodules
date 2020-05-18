@@ -160,7 +160,7 @@
         <Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">
 			URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/Xaeros_Minimap_20.11.0_Forge_1.12.jar</URL>
 			<Size>519307</Size>
-			<Required>true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>4a916de6dfe79229ca3d431ceede0674</MD5>
 			<Meta>
