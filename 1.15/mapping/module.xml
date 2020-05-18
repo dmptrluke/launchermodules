@@ -8,11 +8,11 @@
 			<note>A launcher module that includes a minimap and a world map.</note>
 		</Meta>
 		<Module name="Xaero's Minimap" id="xaerosminimap" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/Xaeros_Minimap_20.9.0_Forge_1.15.2.jar</URL>
-			<Size>517019</Size>
+			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/Xaeros_Minimap_20.11.0_Forge_1.15.2.jar</URL>
+			<Size>523279</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c00829ceb71fae72d39882afd0c181e1</MD5>
+			<MD5>8eeb4c80fd4046f04a090145fdf00069</MD5>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/config/xaerominimap.txt</URL>
 				<Path>config/xaerominimap.txt</Path>
@@ -23,7 +23,7 @@
 				<description>
 				A simple minimap.
 				</description>
-				<version>20.8.0</version>
+				<version>20.11.0</version>
 				<url>https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap</url>
 				<authors>xaero96</authors>
 			</Meta>
