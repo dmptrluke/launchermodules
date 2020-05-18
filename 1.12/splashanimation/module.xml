@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://launcher.dmptr.com/launcher/ServerPackv2.xsl" type="text/xsl" ?>
+<ServerPack version="3.4" 
+	xmlns="http://www.mcupdater.com" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="splashanimation_1.12" version="1.12.2" iconUrl="https://launcher.dmptr.com/launcher/leadcell.png" abstract="false" name="Module: Splash Animation" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Meta>
+			<note>A launcher module that includes the dmptr splash animation.</note>
+		</Meta>
+		<Module name="Splash Animation" id="splashanimation" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/splashanimation/files/SplashAnimation-0.2.1.jar</URL>
+			<Size>46578</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>DC8B5A433B3757C45C3EA82801008442</MD5>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/splashanimation/files/splashanimation.cfg</URL>
+				<Path>config/splashanimation.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c6a16ab6c5adac0d757419e852f085b4</MD5>
+			</ConfigFile>
+			<Meta>
+				<description>SplashAnimation is a simple utility mod which allows an animation to be played at the very start of the game, which gracefully fades into the loading screen.</description>
+				<version>0.2.0</version>
+				<url>https://minecraft.curseforge.com/projects/splashanimation</url>
+				<authors>asiekierka</authors>
+			</Meta>
+			<Submodule name="Animation Assets" id="playpackanimation">
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/splashanimation/files/animation-r1.zip</URL>
+				<Size>711975</Size>
+				<ModType inRoot="true">Extract</ModType>
+				<MD5>D17ED984EF1F428E036EA248D1B056D3</MD5>
+			</Submodule>
+		</Module>
+    </Server>
+</ServerPack>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://launcher.dmptr.com/launcher/ServerPackv2.xsl" type="text/xsl" ?>
+<ServerPack version="3.4" 
+	xmlns="http://www.mcupdater.com" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="mapping_1.15" version="1.15.2" iconUrl="https://launcher.dmptr.com/launcher/leadcell.png" abstract="false" name="Module: Mapping" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Meta>
+			<note>A launcher module that includes a minimap and a world map.</note>
+		</Meta>
+		<Module name="Xaero's Minimap" id="xaerosminimap" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/Xaeros_Minimap_20.9.0_Forge_1.15.2.jar</URL>
+			<Size>517019</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c00829ceb71fae72d39882afd0c181e1</MD5>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/config/xaerominimap.txt</URL>
+				<Path>config/xaerominimap.txt</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>2b5a3ff83c000d8dc527dde201a49e4b</MD5>
+			</ConfigFile>
+			<Meta>
+				<description>
+				A simple minimap.
+				</description>
+				<version>20.8.0</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap</url>
+				<authors>xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero's World Map" id="xaerosworldmap" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/XaerosWorldMap_1.5.7_Forge_1.15.2.jar</URL>
+			<Size>254142</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de7e2218ec3f674927a1d05f61102dc9</MD5>
+			<Meta>
+				<description>
+				A simple world map.
+				</description>
+				<version>1.5.7</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map</url>
+				<authors>xaero96</authors>
+			</Meta>
+		</Module>
+</Server>
+</ServerPack>

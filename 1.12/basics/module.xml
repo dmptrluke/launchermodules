@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://launcher.dmptr.com/launcher/ServerPackv2.xsl" type="text/xsl" ?>
+<ServerPack version="3.4" 
+	xmlns="http://www.mcupdater.com" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="basics_1.12" version="1.12.2" iconUrl="https://launcher.dmptr.com/launcher/leadcell.png" abstract="false" name="Module: Basics" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Meta>
+			<note>A launcher module that includes basic performance and utility mods shared across packs.</note>
+		</Meta>
+    	<Module name="Old Java Warning" id="oldjava" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/OldJavaWarning-1.12.2-1.1.11.jar</URL>
+			<Size>6460</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1C48317607E64F5512DF884D1096A8A6</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Warns about old Java..</description>
+				<version>1.1.11</version>
+				<url>http://www.darkhax.net</url>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+        <Module name="FoamFix" id="foamfix" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/foamfix-0.10.10-1.12.2.jar</URL>
+			<Size>201683</Size>
+			<Required>true</Required>
+			<ModType jreArgs="-XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M">Regular</ModType>
+			<MD5>BBA94F1EE252FCFBD2D52779F5C2F2B1</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
+				<version>0.10.10</version>
+				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
+				<authors>asiekierka</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/config/foamfix.cfg</URL>
+				<Path>config/foamfix.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dbe2e69726190d76ba38c6c3431ead2d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="BetterFPS" id="betterfps" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/BetterFps-1.4.8.jar</URL>
+			<Size>155196</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>D36F4D3C0F96E99A9A1AD2E8EEDA1FC4</MD5>
+			<Meta>
+				<credits>Alexandria - original idea</credits>
+				<description>BetterFps is a Minecraft mod that adds a few performance improvements, trying to be compatible with other mods.</description>
+				<version>1.4.8</version>
+				<url>https://minecraft.curseforge.com/projects/betterfps</url>
+				<authors>Guichaguri</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/config/betterfps.json</URL>
+				<Path>config/betterfps.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>A5F9D75D14D3DD2A653A18582804A573</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Fullscreen Windowed" id="fw" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/FullscreenWindowed-1.12-1.6.0-1.jar</URL>
+			<Size>18396</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>CD5B76D56FEBAFF111225F2AF4A21FBD</MD5>
+			<Meta>
+				<credits>To all the documentation out there, Thank You. Credits to MrWhalerus for 1.12 update</credits>
+				<description>Activates fullscreen windowed mode for Minecraft</description>
+				<version>1.6.0-1</version>
+				<url>https://github.com/hancin/Fullscreen-Windowed-Minecraft</url>
+				<authors>Hancin</authors>
+			</Meta>
+		</Module>
+		<Module name="Sound Filters" id="soundfilters" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/SoundFilters-0.12_for_1.12.jar</URL>
+			<Size>43161</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>AFBDB448F432B5F7FFF4967A1163D858</MD5>
+			<Meta>
+				<description>A little client-side mod that makes sound more interesting</description>
+				<version>0.12</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/sound-filters</url>
+				<authors>Tmtravlr</authors>
+			</Meta>
+		</Module>
+		<Module name="MAtmos" id="matmos" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/matmos-1.12.2-34.2+.jar</URL>
+			<Size>1570014</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>D41631DFB89A2E0CCC0DD6B88E6E48C3</MD5>
+			<Submodule name="Zen Sound Pack" id="matmos-zen">
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mat_zen-1.1.zip</URL>
+				<Size>50082717</Size>
+				<ModType>Regular</ModType>
+				<ModPath>resourcepacks/mat_zen.zip</ModPath>
+				<MD5>8D30AEC2B40EEBB1E6D531FABDA7260B</MD5>
+			</Submodule>
+		</Module>
+        <Module name="WorldEdit" id="worldedit" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/worldedit-forge-mc1.12.2-6.1.10-dist.jar</URL>
+            <Size>1479104</Size>
+			<MD5>bdf6d8d20591c014fed66633f4ef3b23</MD5>
+			<Required isDefault='false'>false</Required>
+			<ModType>Regular</ModType>
+			<Meta>
+				<credits></credits>
+				<description>WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer.</description>
+				<version>6.1.10</version>
+				<url>http://wiki.sk89q.com/wiki/WorldEdit</url>
+				<authors>sk89q, wizjany, TomyLobo, kenzierocks</authors>
+			</Meta>
+			<Submodule name="WorldEdit CUI" id="worldeditcuife2" side="CLIENT">
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12-14.21.1.2387.jar</URL>
+				<Size>461792</Size>
+				<MD5>de1eb987ae68dc49b704fcb3edeea4e0</MD5>
+				<ModType>Regular</ModType>
+				<Meta>
+					<credits>Thanks to LoadingByte for maintaining and updating GuiLib. Thnaks to Zyin&apos;s for releasing his code.</credits>
+					<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
+					<version>2.1.2-mf-1.12.2-14.23.0.2487</version>
+					<url>https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2</url>
+					<authors>Hexosse</authors>
+				</Meta>
+			</Submodule>
+		</Module>
+        <Module name="ReAuth" id="reauth" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/reauth-3.6.0.jar</URL>
+			<Size>30446</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6024686e40df10b8739042ea2dce7f1a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Mod to renew your Session</description>
+				<version>3.6.0</version>
+				<url>http://minecraft.curseforge.com/projects/reauth</url>
+				<authors>TechnicianLP</authors>
+			</Meta>
+		</Module>
+		<Module name="Tails" id="tails" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/Tails-1.12-1.10.0.jar</URL>
+			<Size>269876</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>2d8523ff0fcfc157292051395da6b78d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>For all your taily needs</description>
+				<version>1.12-1.10.0</version>
+				<url>https://github.com/kihira</url>
+				<authors>Kihira</authors>
+			</Meta>
+		</Module>
+        <Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/Xaeros_Minimap_20.10.0_Forge_1.12.jar</URL>
+			<Size>512959</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>308FBB8154377F573B618460336F4A02</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The most &quot;vanilla-looking&quot; minimap for Minecraft.</description>
+				<version>20.10.0</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/config/xaerominimap.txt</URL>
+				<Path>config/xaerominimap.txt</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>5394E8CF52E5D3EF393DB3FDA177090C</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ASMC" id="asmc" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/ASMC-1.12.2-1.0.2.jar</URL>
+			<Size>4057289</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>44A1A5D14FD46A66A549CED29443BBF6</MD5>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/config/asmc.cfg</URL>
+				<Path>config/asmc.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>AEEA5F9E8161C416625829014AC56C92</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/XaerosWorldMap_1.5.7_Forge_1.12.jar</URL>
+			<Size>231973</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>0B58EEEAF99808A123066BBB1643FAC4</MD5>
+			<Meta>
+				<credits>Xaero96</credits>
+				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
+				<version>1.5.7</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/Controlling-3.0.8.jar</URL>
+			<Size>26034</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>B81C567A7918737C08DCB2AB3F50D7F6</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Gives people more control of the key binding screen.</description>
+				<version>3.0.8</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+        <Module name="Phosphor" id="phosphor-lighting" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/phosphor-1.12.2-0.2.6+build50-universal.jar</URL>
+			<Size>1034715</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9892AF4AC4F8CA4222138A245592227C</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Lighting engine performance optimizations and bug fixes for Minecraft. These improvements are based upon the work done by Mathe172 and PhiPro95. Without their work towards reverse engineering and diagnosing Minecraft&apos;s lighting performance crisis, this project would not have been possible.</description>
+				<version>1.12.2-0.2.6+build50</version>
+				<url>https://minecraft.curseforge.com/projects/phosphor</url>
+				<authors>Angeline (@jellysquid)</authors>
+			</Meta>
+						<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/config/phosphor.json</URL>
+				<Path>config/phosphor.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fc25a7c7881e0013d8b81955caea2691</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Better Advancements" id="betteradvancements" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/BetterAdvancements-1.12.2-0.1.0.77.jar</URL>
+			<Size>62668</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9009A4D080CAF4D31E4EF8EDBA1F90CF</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An improvement to the Advancements screen.</description>
+				<version>0.1.0.77</version>
+				<url>https://github.com/way2muchnoise/BetterAdvancements</url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+
+        <Module name="Better Foliage" id="betterfoliage" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/BetterFoliage-MC1.12-2.3.1.jar</URL>
+			<Size>937680</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>FE8B72E0045C06136CA64F736090AC7A</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Leafier leaves and grassier grass</description>
+				<version>2.3.1</version>
+				<url>https://minecraft.curseforge.com/projects/better-foliage</url>
+				<authors>octarine-noise (code), Meringue (textures)</authors>
+				<note>High Performance Impact</note>
+			</Meta>
+		</Module>
+        <Module name="LagGoggles [DEV]" id="laggoggles" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/LagGoggles-FAT-1.12.2-4.11-92.jar</URL>
+			<Size>1102517</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>24586A499A3A1C624E8F8FED235CBBCE</MD5>
+			<Meta>
+				<credits></credits>
+				<description>LagGoggles is a profiler where you can see timings in the world, visually. It comes with a custom GUI using a configurable keybind.</description>
+				<version>4.11-92</version>
+				<note>Debug Tool</note>
+				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
+				<authors>octarine-noise (code), Meringue (textures)</authors>
+			</Meta>
+		</Module>
+		<Module name="Sampler [DEV]" id="sampler" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/sampler-1.84.jar</URL>
+			<Size>307776</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>E256291B460C3C5F79D2FA34DF0E75B1</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Sampling Performance Profiler.</description>
+				<version>1.84</version>
+				<note>Debug Tool</note>
+				<authors>Player</authors>
+			</Meta>
+		</Module>
+		<Module name="Caliper [DEV]" id="caliper" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/Caliper-1.12.2-1.1.44.jar</URL>
+			<Size>84159</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>8C3BA69A8E411351009102C3B62BB3B2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A collection of tools for testing and developing mods and modpacks.</description>
+				<version>1.1.44</version>
+				<url>https://minecraft.curseforge.com/projects/caliper</url>
+				<authors>Darkhax</authors>
+				<note>Debug Tool</note>
+			</Meta>
+		</Module>
+    </Server>
+</ServerPack>

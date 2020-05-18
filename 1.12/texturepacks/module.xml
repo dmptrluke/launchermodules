@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://launcher.dmptr.com/launcher/ServerPackv2.xsl" type="text/xsl" ?>
+<ServerPack version="3.4" 
+	xmlns="http://www.mcupdater.com" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="texturepacks_1.12" version="1.12.2" iconUrl="https://launcher.dmptr.com/launcher/leadcell.png" abstract="false" name="Module: Texture Packs" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Meta>
+			<note>A launcher module that includes texture packs.</note>
+		</Meta>
+		<Module name="Texture Pack: Sphax PureBDcraft" id="sphax" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/texturepacks/files/sphax.zip</URL>
+			<Size>112140668</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/sphax.zip</ModPath>
+			<MD5>6E6A1CC71A3560A0F347C7DFA7D0B185</MD5>
+			<Meta>
+				<description>PureBDcraft completely transforms the Minecraft experience and makes it look like a comic. Blocks, creatures, items and UI are revamped in high definition, and are full of details and geeky references.</description>
+				<url>https://bdcraft.net/</url>
+				<version>r2</version>
+			</Meta>
+		</Module>
+		<Module name="Texture Pack: Unity" id="unity" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/texturepacks/files/unity.zip</URL>
+			<Size>10600328</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/unity.zip</ModPath>
+			<MD5>819BE8167DD2576D18C94FEAB8140AF5</MD5>
+			<Meta>
+				<description>The Unity resource pack follows the traditional Minecraft aesthetics but adds subtle depth and more natural colors.</description>
+				<url>https://minecraft.curseforge.com/projects/unity</url>
+				<version>1.6.4</version>
+			</Meta>
+		</Module>
+		<Module name="Texture Pack: Lithos" id="lithoscore" side="CLIENT">
+			<URL priority="0">hhttps://launcher.dmptr.com/modules/1.12/texturepacks/files/lithoscore-1.21.zip</URL>
+			<Size>41077494</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/lithoscore.zip</ModPath>
+			<MD5>E8428F426D4A434DE887D9FF98E55017</MD5>
+			<Meta>
+				<description>Faithful, but better! Everything should be instantly recognisable to those familiar with default textures, or with the things in real life.</description>
+				<url>https://minecraft.curseforge.com/projects/lithos-core-32x-1-6-1-11-complete</url>
+				<version>1.21</version>
+			</Meta>
+			<Submodule name="Lithos: Luminous" id="lithosluminous">
+				<URL priority="0">https://launcher.dmptr.com/modules/1.12/texturepacks/files/lithosluminous.zip</URL>
+				<Size>41077494</Size>
+				<ModType>Regular</ModType>
+				<ModPath>resourcepacks/lithosluminous.zip</ModPath>
+				<MD5>8B79915DA2261C0408CAA03A4D7B1A1F</MD5>
+			</Submodule>
+		</Module>
+		<Module name="Texture Pack: Faithful 32x" id="faithful" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/texturepacks/files/faithful.zip</URL>
+			<Size>10600328</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/faithful.zip</ModPath>
+			<MD5>19E379F5A3AF3411D9D888B8A3B5AFE2</MD5>
+			<Meta>
+				<description> It is faithful to the original look of Minecraft but the resolution is higher (64×64 instead of 16×16).</description>
+				<url>http://f32.me/</url>
+				<version>MASTER</version>
+			</Meta>
+		</Module>
+        <Module name="Texture Pack: John Smith" id="johnsmith" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/modules/1.12/texturepacks/files/johnsmith.zip</URL>
+			<Size>93748586</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/johnsmith.zip</ModPath>
+			<MD5>8CA5CDAC859B4DD35503B2544B08A42A</MD5>
+		</Module>
+
+    </Server>
+</ServerPack>
