@@ -160,7 +160,7 @@
         <Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">
 			<<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/Xaeros_Minimap_20.12.0_Forge_1.12.jar</>
 			<Size>520114</Size>
-			<Required>true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>b7751618414ce118e1fc2bafcd3b429e</MD5>
 			<Meta>
@@ -193,7 +193,7 @@
 		<Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/XaerosWorldMap_1.6.1_Forge_1.12.jar</URL>
 			<Size>264803</Size>
-			<Required>true</Required>
+			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
 			<MD5>c7bbc56885c0dcac264cb4fa874452e9</MD5>
 			<Meta>
