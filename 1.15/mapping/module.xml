@@ -8,11 +8,11 @@
 			<note>A launcher module that includes a minimap and a world map.</note>
 		</Meta>
 		<Module name="Xaero's Minimap" id="xaerosminimap" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/Xaeros_Minimap_20.11.0_Forge_1.15.2.jar</URL>
-			<Size>523279</Size>
+			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/Xaeros_Minimap_20.12.0_Forge_1.15.2.jar</URL>
+			<Size>524457</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>8eeb4c80fd4046f04a090145fdf00069</MD5>
+			<MD5>199d288ffef7a1bf8414c90a0198ee35</MD5>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/config/xaerominimap.txt</URL>
 				<Path>config/xaerominimap.txt</Path>
@@ -23,22 +23,22 @@
 				<description>
 				A simple minimap.
 				</description>
-				<version>20.11.0</version>
+				<version>20.12.0</version>
 				<url>https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap</url>
 				<authors>xaero96</authors>
 			</Meta>
 		</Module>
 		<Module name="Xaero's World Map" id="xaerosworldmap" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/XaerosWorldMap_1.5.7_Forge_1.15.2.jar</URL>
-			<Size>254142</Size>
+			<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/mods/XaerosWorldMap_1.6.1_Forge_1.15.2.jar</URL>
+			<Size>281938</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>de7e2218ec3f674927a1d05f61102dc9</MD5>
+			<MD5>ab0919092657bfacad2945d3c3ac84b3</MD5>
 			<Meta>
 				<description>
 				A simple world map.
 				</description>
-				<version>1.5.7</version>
+				<version>1.6.1</version>
 				<url>https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map</url>
 				<authors>xaero96</authors>
 			</Meta>
