@@ -16,8 +16,8 @@
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/config/xaerominimap.txt</URL>
 				<Path>config/xaerominimap.txt</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>2b5a3ff83c000d8dc527dde201a49e4b</MD5>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c8be4da775bfde566109cabcf99ca3f1</MD5>
 			</ConfigFile>
 			<Meta>
 				<description>
@@ -42,6 +42,12 @@
 				<url>https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map</url>
 				<authors>xaero96</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/modules/1.15/mapping/files/config/xaeroworldmap.txt</URL>
+				<Path>config/xaeroworldmap.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>38765e9793e68d674aef61818ab61d43</MD5>
+			</ConfigFile>
 		</Module>
 </Server>
 </ServerPack>

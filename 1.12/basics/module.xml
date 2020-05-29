@@ -174,7 +174,7 @@
 				<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/config/xaerominimap.txt</URL>
 				<Path>config/xaerominimap.txt</Path>
 				<NoOverwrite>true</NoOverwrite>
-				<MD5>5394E8CF52E5D3EF393DB3FDA177090C</MD5>
+				<MD5>cb33d0a2bc506b5860e7e7647f3064b7</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="ASMC" id="asmc" depends="" side="CLIENT">
