@@ -143,18 +143,18 @@
 				<authors>TechnicianLP</authors>
 			</Meta>
 		</Module>
-		<Module name="Tails" id="tails" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/modules/1.12/basics/files/mods/Tails-1.12-1.10.0.jar</URL>
-			<Size>269876</Size>
-			<Required isDefault="true">false</Required>
+		<Module name="Ears" id="ears" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/modules/1.12/basics/files/mods/ears-forge-1.12-1.4.5.jar</URL>
+			<Size>371260</Size>
+			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2d8523ff0fcfc157292051395da6b78d</MD5>
+			<MD5>18a21fdf032e305112543c014af1bf89</MD5>
 			<Meta>
 				<credits></credits>
-				<description>For all your taily needs</description>
-				<version>1.12-1.10.0</version>
-				<url>https://github.com/kihira</url>
-				<authors>Kihira</authors>
+				<description>Faithful fancy fashion features for fuzzy folk.</description>
+				<version>1.4.5</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/ears</url>
+				<authors>unascribed</authors>
 			</Meta>
 		</Module>
         <Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">

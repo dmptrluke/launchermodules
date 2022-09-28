@@ -35,10 +35,10 @@
 		</Module>
 		<Module name="Texture Pack: Lithos" id="lithoscore" side="CLIENT">
 			<URL priority="0">hhttps://launcher.dmptr.com/modules/1.12/texturepacks/files/lithoscore-1.21.zip</URL>
+			<ModPath>resourcepacks/lithoscore.zip</ModPath>
 			<Size>41077494</Size>
 			<Required isDefault="false">false</Required>
 			<ModType>Regular</ModType>
-			<ModPath>resourcepacks/lithoscore.zip</ModPath>
 			<MD5>E8428F426D4A434DE887D9FF98E55017</MD5>
 			<Meta>
 				<description>Faithful, but better! Everything should be instantly recognisable to those familiar with default textures, or with the things in real life.</description>
